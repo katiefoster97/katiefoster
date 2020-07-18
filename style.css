@@ -1,11 +1,102 @@
 
+/* using both custom class, id and element selectors to style html files. */
+
 .custom {
-    height: 200;
-    width: 200px;
+    font-family: sans-serif;
+    font-size: small;
     color: blue;
 }
-#circle {border-radius: 50%}
+
+.recipe {
+    font-family: sans-serif;
+    border-collapse: collapse;
+
+}
+.recipe td, .recipe th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    background-color: cornsilk;
+}
+.tooltip {
+    position: relative;
+    height: auto;
+    width: fit-content;
+    color: darkmagenta;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    font-size: small;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+  }
+#para1 {
+    text-align: center;
+    color: darkslategray;
+    font-family: sans-serif;
+}
+#header2 {
+    text-align: center;
+    border-color: blue;
+    font-weight: 100;
+}
+#orderedlist {
+    text-align: left;
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+.custom blockquote {
+    background-color: cornsilk;
+}
+.custom img {
+    background-color: floralwhite;
+}
+/* the animation code */
+@keyframes trial {
+    from {background-color: gold;}
+    to {background-color: greenyellow;}
+}
+
+footer {
+    width: 100px;
+    height: 100px;
+    background-color:gold;
+    animation-name: trail;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+}
 
 h1 {text-align:center;
-     color:green;
+     color: blueviolet;
+     font-size: medium;
 }
+li {text-align: center;
+color: cyan;
+font-style: italic;
+}
+
+body {padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    color: black;
+    background-color: cadetblue;
+}
+
+a {color: darkmagenta;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-left: auto;
+}
+
+address {text-align: center;
+color: darkcyan;}

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-us">
     <head>
-        <title>HTML Tags Homework</title>
+        <title>Recipes</title>
         <link href="style.css" rel="stylesheet">
       </head>
 
@@ -10,6 +10,9 @@
 <body>
 <!-- trying to find 20 tags to use was challenging -->
 <!-- starting to get the hang of the nav tag and learning the table tag too. -->
+
+<h1>Recipes along the way</h1>
+<h2 id="header2">Amazing dishes discovered while traveling</h2>
 <nav>
     <a href="/html/">HTML</a> |
     <a href="/css/">CSS</a> |
@@ -17,31 +20,35 @@
     <a href="/python/">Python</a>
     </nav>
 
-
-
-<h1>Boise State University</h1>
-<h2>Entering Class and Graduation Year</h2>
-
-<table style="width:100%>
+<!--using both class and combination selectors to style recipe table-->
+<table class= "recipe";style="width: 100%">
 <tr>
-    <th>Class</th>
-    <th>Graduation year</th>
+    <th>Name</th>
+    <th>Origin</th>
+    <th>Year</th>
+    <th>Ranking</th>
 </tr>
 <tr>
+    <td>Paella</td>
+    <td>Spain</td>
+    <td>2015</td>
+    <td>5</td>
+</tr>
+<tr>
+    <td>Mahi Tacos</td>
+    <td>Maui</td>
     <td>2014</td>
-    <td>2018</td>
-</tr>
-<tr>
-    <td>2016</td>
-    <td>2020</td>
+    <td>5</td>
 </tr>
 </table>
 
-<p>My first try at an HTML paragraph. <abbr title="Boise State University">BSU</abbr> is home to the Broncos</p>
+<!--using id selectors to style the p and ol elements-->
+
+<p id="para1">My first try at an HTML paragraph. <abbr title="Boise State University">BSU</abbr> is home to the Broncos</p>
 <img src="https://www.w3schools.com/images/lamp.jpg" alt="lamp">
 <a href="https://www.boisetate.edu">Visit Boise State</a>
 <p>Please find below a list of activities at BSU</p>
-<ol>
+<ol id="orderedlist">
     <li>Basketball</li>
     <li>Football</li>
     <li>Soccer</li>
