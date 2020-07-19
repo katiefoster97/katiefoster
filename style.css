@@ -41,7 +41,8 @@ div.fixed {
   }
 #para1 {
     text-align: center;
-    color: darkslategray;
+    color: darkcyan;
+    font-size: large;
     font-family: sans-serif;
 }
 #header2 {
@@ -50,7 +51,7 @@ div.fixed {
     font-weight: 100;
 }
 #orderedlist {
-    text-align: left;
+    text-align: center;
     padding-left: 20px;
     font-family: sans-serif;
 }
@@ -68,20 +69,21 @@ div.fixed {
 
 footer {
     width: 100px;
-    height: 100px;
+    height: 30px;
     background-color:gold;
-    animation-name: trail;
+    animation-name: trial;
     animation-duration: 4s;
     animation-iteration-count: 5;
 }
 
 h1 {text-align:center;
      color: blueviolet;
-     font-size: medium;
+     font-size: x-large;
 }
 li {text-align: center;
-color: cyan;
+color: blue;
 font-style: italic;
+font-size: medium;
 }
 
 body {padding-left: 25px;
@@ -89,7 +91,7 @@ body {padding-left: 25px;
     padding-bottom: 25px;
     padding-right: 25px;
     color: black;
-    background-color: cadetblue;
+    background-color: cornsilk;
 }
 
 a {color: darkmagenta;
@@ -98,5 +100,5 @@ a {color: darkmagenta;
     margin-left: auto;
 }
 
-address {text-align: center;
-color: darkcyan;}
+address {text-align: left;
+color: blueviolet;}
