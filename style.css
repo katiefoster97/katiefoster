@@ -64,7 +64,7 @@ div.fixed {
 /* the animation code */
 @keyframes trial {
     from {background-color: gold;}
-    to {background-color: greenyellow;}
+    to {background-color: blueviolet;}
 }
 
 footer {
