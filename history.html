@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--using scripts in this file-->
 <html lang="en-US">
 <head>
     <title>History</title>
@@ -16,8 +17,18 @@ removed some of the code from previous lesson, block quote-->
 <p id="para1">This is a brief snapshot into my early years growing up.</p>
 </div>
 
-<p>Many trips were taken with the family and listed below are a few highlights:</p>
+<!--using js tags to modify the <p> tag elements below-->
 
+    <p id="pnew">Childhood to Adult</p>
+    <script>
+        document.getElementById("pnew").innerHTML = "9 years old to 22 years old";
+        </script>
+
+<p id="plist">Many trips were taken with the family and listed below are a few highlights:</p>
+
+<script>
+    document.getElementById("plist").innerHTML = "Family trips listed below";
+    </script>
 <ol id="orderedlist">
     <li>Maui, 2014</li>
     <li>Washington, DC, 2012</li>
@@ -33,6 +44,12 @@ removed some of the code from previous lesson, block quote-->
 <div class="tooltip">Hover for my next adventure
     <span class="tooltiptext">I am off to Europe soon</span>
 </div>
+<div><img id=myeurope src="europe.jpg" alt="europe" style="width:128px;height:128px;"></div>
+<!--using script tag to modify europe image-->
+
+<script>
+    document.getElementById("myeurope").src = "europenew.jpg";
+    </script>
 </body>
 
 </html>
