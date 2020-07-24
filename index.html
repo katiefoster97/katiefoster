@@ -20,10 +20,36 @@
 <a href="locations.html">locations</a>
 
 <p style="box-shadow: bisque; font-weight: 500;">This is the story of me, aka Katie Foster, a Boise State University Student 
-    chronocling my years in Boise on these web pages. Each page will give a snapshot into my life
+    chronicling my years in Boise on these web pages. Each page will give a snapshot into my life
     from my freshman year until present day. Enjoy! 
 </p>
+
+<!--using js to edit an existing html element with a
+button and also using js to edit the css on an existing element
+button-->
+<p id="jsbutton">My favorite place is....</p>
+<button type="button" onclick="myFunctionreveal()">Click to reveal</button>
+
+<p id="jsbuttonstyle" style="color: chocolate;">Can you now guess my favorite color?</p>
+<button type="button" onclick="myFunctionlook()">Let's take a look</button>
 </nav>
+
+
+<div id="jsnew">
+    <p id="p1">Above is my next favorite travel destination</p>
+</div>
+
+<!--adding a text box and submit button and then
+using js to return response upon submit-->
+
+<p class="para2">Please enter your favorite travel destination</p>
+
+<form class="para2" id="jsform" onsubmit="myform()">
+    <textarea name="message" rows="1" cols="20"></textarea>
+    <br><br>
+    <input type="submit">
+  </form>
+
 <div style="color: darkcyan; font: small;">Copyright KFoster 2020</div>
 
 <!--adding a link to a my js file. will use javascript code

@@ -33,6 +33,23 @@
     visibility: visible;
 }
 
+/*adding a css class to a javascript which is adding a new element#/
+*/
+.jsstyle {
+    width: 100%;
+    padding: 10px;
+    background-color: blanchedalmond;
+    color: black;
+    font-size: 15px;
+    padding-left: 25px;
+}
+.para2 {padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    padding-right: 25px;
+    color: black;
+    background-color: cornsilk;
+}
 div.fixed {
     position: fixed;
     bottom: 0;
