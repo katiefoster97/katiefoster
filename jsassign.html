@@ -6,11 +6,14 @@
     </head>
     <body>
         <h1 id="hello">Random Generator</h1>
-        <p>Please enter a number and click the button and see what happens</p>
-        <div id="div1">
-            <button id="jsbutton" onclick="jsButtonFunction()">Click this button!</button>
-        </div>
-        <input type="number" id="user" name="user">
+        <label for="number">Please enter a number between 1 to 100</label>
+        <input type="number" id="number_select" value="100" min="1" max="100"></input>
+        <button id="button" onclick="numberDiv()">Click this button!</button>
+       
+        <div id="numberdiv" class="numbergenerator"></div>
+            
+        
+        
 
         <p id="p1">Wow!</p>
 

@@ -79,6 +79,19 @@ div.fixed {
 .custom img {
     background-color: floralwhite;
 }
+.numbergenerator {
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: fuchsia;
+    padding: 10px;
+    line-height: 75px;
+    background-color: honeydew;
+    border: solid 3px black;
+    height: 75px;
+    width: 75px;
+    margin: auto;
+}
 /* the animation code */
 @keyframes trial {
     from {background-color: gold;}
