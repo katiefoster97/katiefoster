@@ -28,14 +28,15 @@ function myFunctionreveal() {
   //using js to add a new element to my index.html file
   //inserting after a <p> tag
  // was unable to determine how to insert after
-    var para = document.createElement("p");
-    var node = document.createTextNode("Paris, France");
-    para.appendChild(node);
+ var para = document.createElement("p");
+ var node = document.createTextNode("Paris, France");
+ para.appendChild(node);
 
-    var element = document.getElementById("jsnew");
-    var child = document.getElementById("p1");
-    element.insertBefore(para,child);
-    element.classList.add("jsstyle");
+ var element = document.getElementById("jsnew");
+ var child = document.getElementById("p1");
+ element.insertBefore(para,child);
+ element.classList.add("jsstyle");
+
 
 //using js to return response upon text being submitted in 
 //html element

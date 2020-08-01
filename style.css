@@ -1,6 +1,16 @@
 
 /* using both custom class, id and element selectors to style html files. */
 
+#cover {
+    background-image:url(feet_01.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+} 
 .custom {
     font-family: sans-serif;
     font-size: small;
@@ -79,6 +89,17 @@ div.fixed {
 .custom img {
     background-color: floralwhite;
 }
+.nav_bar {
+    overflow: hidden;
+    position: fixed;
+    top: 4px;
+    left: 0px;    
+}
+.nav_bar a {
+    display: inline-block;
+    padding: 0px 4px;
+    font-size: 20px;
+}
 .numbergenerator {
     font-size: 4em;
     font-family: 'Times New Roman', Times, serif;
@@ -117,13 +138,13 @@ font-style: italic;
 font-size: medium;
 }
 
-body {padding-left: 25px;
+/*body {padding-left: 25px;
     padding-top: 25px;
     padding-bottom: 25px;
     padding-right: 25px;
     color: black;
     background-color: cornsilk;
-}
+}*/
 
 a {color: darkmagenta;
     font-family: sans-serif;

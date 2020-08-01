@@ -6,24 +6,27 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
-
-    <h1>Javascript Journey</h1>
-    <h2>place short description here</h2>
-
-    <h2>Today......</h2>
-
-
-
-<h2>Yesterday..........</h2>
+        <nav class="nav_bar">
+            <a href="index.html">home</a> |
+            <a href="history.html">HTML</a> |
+            <a href="cssassign.html">CSS</a> |
+            <a href="ourteam.html">Our Team</a> |
+            <a href="travels.html">travels</a> |
+            <a href="recipes.html">recipes</a> |
+            <a href="locations.html">locations</a> |
+            <a href="jsassign.html">Javascript</a>
+</nav>
+    
 <!--using js to edit an existing html element with a
 button and also using js to edit the css on an existing element
 button-->
 <p id="jsbutton">My favorite place is....</p>
 <button type="button" onclick="myFunctionreveal()">Click to reveal</button>
 
+
 <p id="jsbuttonstyle" style="color: chocolate;">Can you now guess my favorite color?</p>
 <button type="button" onclick="myFunctionlook()">Let's take a look</button>
-</nav>
+
 
 
 <div id="jsnew">
@@ -49,7 +52,7 @@ using js to return response upon submit-->
         <input type="number" id="number_select" value="100" min="1" max="100"></input>
         <button id="button" onclick="numberDiv()">Click this button!</button>
        
-        <div id="numberdiv" class="numbergenerator">
+        <div id="numberdiv">
             Random number will appear here
         </div>
             
