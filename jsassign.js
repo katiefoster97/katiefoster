@@ -27,16 +27,7 @@ function myFunctionreveal() {
 
   //using js to add a new element to my index.html file
   //inserting after a <p> tag
- // was unable to determine how to insert after
- var para = document.createElement("p");
- var node = document.createTextNode("Paris, France");
- para.appendChild(node);
-
- var element = document.getElementById("jsnew");
- var child = document.getElementById("p1");
- element.insertBefore(para,child);
- element.classList.add("jsstyle");
-
+ 
 
 //using js to return response upon text being submitted in 
 //html element
@@ -58,21 +49,22 @@ function numberDiv () {
 }
 // the following script will attempt to create elements from the random 
 //number generated above
-function smileyface () {
-    var getValue = document.getElementById("numberdiv");
-    var starNum = getValue.innerHTML;
-    var randomPositionLeft = Math.floor(Math.random() * 101);
-    var randomPositionTop = Math.floor(Math.random() * 101);
-}
-    //number = Math.random() * number;
-    //var img = document.createElement("img");
-    //img.src = "feet_01.jpg";
-    //img.style.backgroundColor = "blue"
+//function smiles () {
+    //var getValue = document.getElementById("numberdiv");
+    //var faceNum = getValue.innerHTML;
+   // var randomPositionLeft = Math.floor(Math.random() * 101);
+    //var randomPositionTop = Math.floor(Math.random() * 101);
+    //for (let i = 0; i < faceNum; i++) {
+       // var faceDiv = document.createElement('div');
+        //document.body.appendChild(faceDiv);
+       // var randomPositionLeft = Math.floor(Math.random() * 101);
+       // var randomPositionTop = Math.floor(Math.random() * 101);
+       // faceDiv.setAttribute('class', 'faces');
+       // faceDiv.style.left = (randomPositionLeft) + "%";
+       // faceDiv.style.top =  (randomPositionTop) + "%";
 
-   // var src = document.getElementById("p1");
-    //src.appendChild(img);
-
-    //document.body.insertBefore(newDiv, currentDiv);
+//}
+    
 
 
 

@@ -7,15 +7,13 @@
     </head>
     <body>
         <nav class="nav_bar">
-            <a href="index.html">home</a> |
+            <a href="index.html">Home</a> |
             <a href="history.html">HTML</a> |
             <a href="cssassign.html">CSS</a> |
+            <a href="jsassign.html">Javascript</a> |
             <a href="ourteam.html">Our Team</a> |
-            <a href="travels.html">travels</a> |
-            <a href="recipes.html">recipes</a> |
-            <a href="locations.html">locations</a> |
-            <a href="jsassign.html">Javascript</a>
-</nav>
+            <a href="recipes.html">Recipes</a> |
+        
     
 <!--using js to edit an existing html element with a
 button and also using js to edit the css on an existing element
@@ -27,11 +25,17 @@ button-->
 <p id="jsbuttonstyle" style="color: chocolate;">Can you now guess my favorite color?</p>
 <button type="button" onclick="myFunctionlook()">Let's take a look</button>
 
+<div id="div1">
+    <p id="p1">Below is my next favorite travel destination</p>
+        </div>
+<script>
+    var para = document.createElement("p");
+    var node = document.createTextNode("Paris");
+    para.appendChild(node);
+    var element = document.getElementById("div1");
+    element.appendChild(para);
+</script>
 
-
-<div id="jsnew">
-    <p id="p1">Above is my next favorite travel destination</p>
-</div>
 
 <!--adding a text box and submit button and then
 using js to return response upon submit-->
@@ -55,11 +59,11 @@ using js to return response upon submit-->
         <div id="numberdiv">
             Random number will appear here
         </div>
-            
-        
-        
+                    
 
         <p id="p1">Wow!</p>
+<div> Now you can have some fun with the number you generated</div>
+        <button type="button" onclick="starrySky()">Generate Smiles</button>
 
         <!--adding a link to a my js file. will use javascript code
 to change or add functions to my web pages-->

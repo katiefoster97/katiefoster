@@ -1,20 +1,29 @@
 
 /* using both custom class, id and element selectors to style html files. */
-
+html {
+    scroll-behavior: smooth;
+  }
 #cover {
     background-image:url(feet_01.jpg);
+    border: 5px solid black;
+    padding: 25px;
     background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;   
-} 
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    overflow: visible;
+    } 
+#journey {
+    background-image:url(corn\ on\ the\ cob.JPG);
+    border: 5px solid black;
+    padding: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: visible;
+    } 
 .custom {
     font-family: sans-serif;
     font-size: small;
-    color: blue;
+    color: darkslategray;
 }
 
 .recipe {
@@ -23,7 +32,7 @@
 
 }
 .recipe td, .recipe th {
-    border: 1px solid #ddd;
+    border: 1px solid #73AD21;
     padding: 8px;
     background-color: cornsilk;
 }
@@ -48,7 +57,7 @@
 .jsstyle {
     width: 100%;
     padding: 10px;
-    background-color: blanchedalmond;
+    background-color: cornsilk;
     color: black;
     font-size: 15px;
     padding-left: 25px;
@@ -69,13 +78,13 @@ div.fixed {
   }
 #para1 {
     text-align: center;
-    color: darkcyan;
+    color: darkslategray;
     font-size: large;
     font-family: sans-serif;
 }
 #header2 {
     text-align: center;
-    border-color: blue;
+    border-color:darkslategray;
     font-weight: 100;
 }
 #orderedlist {
@@ -104,10 +113,10 @@ div.fixed {
     font-size: 4em;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    color: fuchsia;
+    color:darkslategray;
     padding: 10px;
     line-height: 75px;
-    background-color: honeydew;
+    background-color: cornsilk;
     border: solid 3px black;
     height: 75px;
     width: 75px;
@@ -129,13 +138,25 @@ footer {
 }
 
 h1 {text-align:center;
-     color: blueviolet;
+     color:darkslategray;
      font-size: x-large;
 }
-li {text-align: center;
-color: blue;
-font-style: italic;
-font-size: medium;
+li {
+    list-style-type: none;
+    margin: 3vw 3vw;
+    font-size: 16px;
+    color: darkslategray;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+}
+ul {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-family: 'Raleway', sans-serif;
 }
 
 /*body {padding-left: 25px;
@@ -146,11 +167,11 @@ font-size: medium;
     background-color: cornsilk;
 }*/
 
-a {color: darkmagenta;
+a {color: darkslategray;
     font-family: sans-serif;
     font-weight: 100;
     margin-left: auto;
 }
 
 address {text-align: left;
-color: blueviolet;}
+color: darkslategray;}
