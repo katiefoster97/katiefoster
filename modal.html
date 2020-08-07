@@ -6,8 +6,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <!-- Personal Links -->
       <!--<link rel="stylesheet" type="text/css" href="mainstyle.css" /> -->
@@ -36,8 +37,9 @@
               </div>
             </nav>
 
+<!-- Setting up an animated modal, utilizing the modal fade class -->
 <div class="container" style="background-color: lightskyblue;">
-    <h2>Our Team</h2>
+    <h1>Our Team</h1>
     <p>Interesting tidbit on our team.</p>
   
     <!-- Button to Open the Modal -->
@@ -70,8 +72,9 @@
         </div>
       </div>
     </div>
+</div>
 <!-- The media - video link -->
-<div class="container-fixed" style="background-color: lightslategrey;">
+<div class="container" style="background-color: lightslategrey;">
     <h2>Team Interview</h2>
         <p>Melissa and I during a Zoom meeting, discussing a weekly assignment:</p>
         <div class="media border p-3">
@@ -82,18 +85,50 @@
         </div>
 </div>
 <!-- team cards -->
-<div class="container">
-    <h2>Card Image</h2>
-    <p>Image at the top (card-img-top):</p>
+<div class="container" style="background-color: lightskyblue">
+    <h2>Team Photos</h2>
     <div class="card" style="width:400px">
-      <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
+      <img class="card-img-top" src="katiefoster2.jpg" alt="Katies photo" style="width:100%">
       <div class="card-body">
-        <h4 class="card-title">John Doe</h4>
-        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+        <h4 class="card-title">Katie Foster</h4>
+        <p class="card-text">Champion for the puppies.</p>
         <a href="#" class="btn btn-primary">See Profile</a>
       </div>
     </div>
     <br>
 </div>
-  </body>
+<!-- Link to Melissa's website -->
+<div class="container" style="background-color: linen; color: mediumblue;"
+class="alert alert-dark" role="alert">
+    Please enjoy my teammates web development journey too! <a href="https://melissamoore1216.github.io/index.html" class="alert-link">Melissa Moore Website</a>.
+</div>
+<!-- Setting grid columns both equal and unequal -->
+
+<div class="container-fluid"> <!-- If Needed Left and Right Padding in 'md' and 'lg' screen means use container class -->
+    <h2>Three equal width columns and Two unequal width columns</h2>
+    <div class="row">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color: darkcyan;">Column 1
+            
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color: orchid;">Column 2
+            
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color: darkcyan;">Column 3
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8" style="background-color: lightcyan; color: blue;">Column 1
+            
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color: lightgreen; color: blue;">Column 2
+            
+        </div>
+    </div>
+</div>
+<!--Using Jumbotron-->
+<div class="jumbotron jumbotron-fluid" style="color: mediumblue;">
+<h1>Congratulations to all the teams!</h1>
+</div>
+</body>
   </html>
