@@ -1,0 +1,69 @@
+/*new css file for bootstrap assignment, module 6*/
+
+.bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+.bg-2 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+}
+.bg-3 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+.modal-header {
+    background-color: #ffffff; /* White */
+    color: #555555;
+}
+.modal-body {
+    background-color: #ffffff; /* White */
+    color: #555555;
+}
+h2 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+h4 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    font-size: x-large;
+}
+.card-text {
+    font-weight: bold;
+}
+#a-1 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#row-1 {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#row-2 {
+    text-align: left;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.jumbotron {
+    text-align: center;
+    text-shadow: black;
+}
+.js-margin {
+    margin-left: 35px;
+}

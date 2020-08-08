@@ -10,19 +10,19 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <!-- Personal Links -->
-      <!--<link rel="stylesheet" type="text/css" href="mainstyle.css" /> -->
+      <link rel="stylesheet" type="text/css" href="custom.css" />
       <!--<link href="style.css" rel="stylesheet"> -->
       <script src="jsassign.js"></script>
       </head>
-      <body class="bg-primary">
+      <body class="bg-info">
           <nav class="navbar navbar-default `**navbar-expand-md**`">
               <div class="container-fluid">
                 <div class="navbar-header">
-                  <a class="navbar-brand" href="home.html">Katie's WebSite</a>
+                  <a class="navbar-brand" href="modal.html">Katie's WebSite</a>
                 </div>
                 <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="nav navbar-nav">
-                  <li class="nav-item"><a href="home.html">Home</a></li>
+                  <li class="nav-item"><a href="modal.html">Home</a></li>
                   <li class="nav-item"><a href="index.html">Journey</a></li>
                   <li class="nav-item"><a href="history.html">HTML</a></li>
                   <li class="nav-item"><a href="cssassign.html">CSS</a></li>
@@ -36,43 +36,41 @@
               </div>
             </nav>
               
-            <div class="container">
-              <h3>Basic Navbar Example</h3>
-              <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
-            </div>
-    
+            
 <!--using js to edit an existing html element with a
 button and also using js to edit the css on an existing element
 button-->
-<p id="jsbutton">My favorite place is....</p>
-<button type="button" onclick="myFunctionreveal()">Click to reveal</button>
+<div class="js-margin">
+    <h1>JavaScript Journey</h1>
+    <p id="jsbutton">My favorite place is....</p>
+    <button type="button" onclick="myFunctionreveal()">Click to reveal</button>
 
 
-<p id="jsbuttonstyle" style="color: chocolate;">Can you now guess my favorite color?</p>
-<button type="button" onclick="myFunctionlook()">Let's take a look</button>
+    <p id="jsbuttonstyle" style="color: chocolate;">Can you now guess my favorite color?</p>
+    <button type="button" onclick="myFunctionlook()">Let's take a look</button>
 
-<div id="div1">
-    <p id="p1">Below is my next favorite travel destination</p>
-        </div>
-<script>
-    var para = document.createElement("p");
-    var node = document.createTextNode("Paris");
-    para.appendChild(node);
-    var element = document.getElementById("div1");
-    element.appendChild(para);
-</script>
+    <div id="div1">
+        <p id="p1">Below is my next favorite travel destination</p>
+    </div>
+    <script>
+        var para = document.createElement("p");
+        var node = document.createTextNode("Paris");
+        para.appendChild(node);
+        var element = document.getElementById("div1");
+        element.appendChild(para);
+    </script>
 
 
-<!--adding a text box and submit button and then
-using js to return response upon submit-->
+    <!--adding a text box and submit button and then
+    using js to return response upon submit-->
 
-<p class="para2">Please enter your favorite travel destination</p>
+    <p class="para2">Please enter your favorite travel destination</p>
 
-<form class="para2" id="jsform" onsubmit="myform()">
-    <textarea name="message" rows="1" cols="20"></textarea>
-    <br><br>
-    <input type="submit">
-  </form>
+    <form class="para2" id="jsform" onsubmit="myform()">
+        <textarea name="message" rows="1" cols="20"></textarea>
+        <br><br>
+        <input type="submit">
+    </form>
 
      
 
@@ -88,19 +86,20 @@ using js to return response upon submit-->
                     
 
         <p id="p1">Wow!</p>
-<div> Now you can have some fun with the number you generated</div>
-        <button type="button" onclick="starrySky()">Generate Smiles</button>
+    <div> Now you can have some fun with the number you generated</div>
+            <button type="button" onclick="starrySky()">Generate Smiles</button>
 
         <!--adding a link to a my js file. will use javascript code
-to change or add functions to my web pages-->
-<script src="jsassign.js"></script>
+        to change or add functions to my web pages-->
+    <script src="jsassign.js"></script>
+</div>
 
 
-<div style="color: darkcyan; font: small;">Copyright KFoster 2020</div>
+    <div style="color: darkcyan; font: small; padding: 10px;">Copyright KFoster 2020</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+    </body>
 </html>

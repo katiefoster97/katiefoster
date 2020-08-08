@@ -11,24 +11,24 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <!-- Personal Links -->
-      <!--<link rel="stylesheet" type="text/css" href="mainstyle.css" /> -->
+      <link rel="stylesheet" type="text/css" href="custom.css" />
       <!--<link href="style.css" rel="stylesheet"> -->
       <script src="jsassign.js"></script>
       </head>
-      <body class="bg-primary">
+      <body class="bg-info">
           <nav class="navbar navbar-default `**navbar-expand-md**`">
               <div class="container-fluid">
                 <div class="navbar-header">
-                  <a class="navbar-brand" href="home.html">Katie's WebSite</a>
+                  <a class="navbar-brand" href="modal.html">Katie's WebSite</a>
                 </div>
                 <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="nav navbar-nav">
-                  <li class="nav-item"><a href="home.html">Home</a></li>
+                  <li class="nav-item active"><a href="modal.html">Home</a></li>
                   <li class="nav-item"><a href="index.html">Journey</a></li>
                   <li class="nav-item"><a href="history.html">HTML</a></li>
                   <li class="nav-item"><a href="cssassign.html">CSS</a></li>
-                  <li class="nav-item"><a href="jsassign.html">Javascript</a></li>
-                  <li class="nav-item active"><a href="ourteam.html">Our Team</a></li>
+                  <li class="nav-item"><a href="jsassign.html">Javascript</a></li> 
+                  <li class="nav-item"><a href="ourteam.html">Our Team</a></li>
                 </ul>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">  
@@ -38,17 +38,17 @@
             </nav>
 
 <!-- Setting up an animated modal, utilizing the modal fade class -->
-<div class="container" style="background-color: lightskyblue;">
+<div class="container bg-1">
     <h1>Our Team</h1>
     <p>Interesting tidbit on our team.</p>
   
     <!-- Button to Open the Modal -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">
       Open me
     </button>
   
     <!-- The Modal -->
-    <div class="modal fade" id="myModal" style="color: blue;">
+    <div class="modal fade" id="myModal">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
         
@@ -61,7 +61,8 @@
           <!-- Modal body -->
           <div class="modal-body">
             Melissa and I were great partners for the COID297 Intro to Web Development course.
-            <div>We both love <i class="fas fa-coffee"></i></div>
+            <div>We both love coffee!</div>
+            <div><i class="fas fa-coffee"></i></div>
           </div>
           
           <!-- Modal footer -->
@@ -74,10 +75,10 @@
     </div>
 </div>
 <!-- The media - video link -->
-<div class="container" style="background-color: lightslategrey;">
-    <h2>Team Interview</h2>
+<div class="container bg-2">
+    <h4>Team Interview</h4>
         <p>Melissa and I during a Zoom meeting, discussing a weekly assignment:</p>
-        <div class="media border p-3">
+        <div class="media border p-4">
           <img src="christin-hume-PNWp1dZ7sO0-unsplash.jpg" alt="Team Interview" class="mr-3 mt-3 rounded-circle" style="width:60px;">
           <a href="https://www.youtube.com/watch?v=jyTfCPjVlRY">See us live!</a></img>
           <div class="media-body">Posted August 2, 2020          
@@ -85,28 +86,36 @@
         </div>
 </div>
 <!-- team cards -->
-<div class="container" style="background-color: lightskyblue">
+<div class="container bg-3">
     <h2>Team Photos</h2>
     <div class="card" style="width:400px">
       <img class="card-img-top" src="katiefoster2.jpg" alt="Katies photo" style="width:100%">
       <div class="card-body">
         <h4 class="card-title">Katie Foster</h4>
         <p class="card-text">Champion for the puppies.</p>
-        <a href="#" class="btn btn-primary">See Profile</a>
+        <a href="profile.html" class="btn btn-danger">See Profile</a>
       </div>
     </div>
     <br>
+    <div class="card" style="width:400px">
+        <img class="card-img-top" src="FPO-Image-Squares.jpg" alt="Melissa's photo" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">Melissa Moore</h4>
+          <p class="card-text">PR and Marketing Expert</p>
+          <a href="profile2.html" class="btn btn-danger">See Profile</a>
+        </div>
+    </div>
 </div>
 <!-- Link to Melissa's website -->
-<div class="container" style="background-color: linen; color: mediumblue;"
+<div class="container bg-2" id="a-1"
 class="alert alert-dark" role="alert">
     Please enjoy my teammates web development journey too! <a href="https://melissamoore1216.github.io/index.html" class="alert-link">Melissa Moore Website</a>.
 </div>
 <!-- Setting grid columns both equal and unequal -->
 
-<div class="container-fluid"> <!-- If Needed Left and Right Padding in 'md' and 'lg' screen means use container class -->
+<div class="container bg-1"> <!-- If Needed Left and Right Padding in 'md' and 'lg' screen means use container class -->
     <h2>Three equal width columns and Two unequal width columns</h2>
-    <div class="row">
+    <div class="row" id="row-1">
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color: darkcyan;">Column 1
             
         </div>
@@ -117,17 +126,17 @@ class="alert alert-dark" role="alert">
             
         </div>
     </div>
-    <div class="row">
+    <div class="row" id="row-2">
         <div class="col-sm-8" style="background-color: lightcyan; color: blue;">Column 1
             
         </div>
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color: lightgreen; color: blue;">Column 2
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color: lightslategray; color: blue;">Column 2
             
         </div>
     </div>
 </div>
 <!--Using Jumbotron-->
-<div class="jumbotron jumbotron-fluid" style="color: mediumblue;">
+<div class="jumbotron" style="color: mediumblue;">
 <h1>Congratulations to all the teams!</h1>
 </div>
 </body>
