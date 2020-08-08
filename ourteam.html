@@ -1,12 +1,12 @@
 <!doctype html>
-<html>
+<html lang="en">
     <head>
         <title>Our Team</title>
         <!--Bootstrap links-->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -23,12 +23,12 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="nav navbar-nav">
-                  <li class="nav-item"><a href="modal.html">Home</a></li>
+                  <li class="nav-item active"><a href="modal.html">Home</a></li>
                   <li class="nav-item"><a href="index.html">Journey</a></li>
                   <li class="nav-item"><a href="history.html">HTML</a></li>
                   <li class="nav-item"><a href="cssassign.html">CSS</a></li>
                   <li class="nav-item"><a href="jsassign.html">Javascript</a></li> 
-                  <li class="nav-item active"><a href="ourteam.html">Our Team</a></li>
+                  <li class="nav-item"><a href="ourteam.html">Our Team</a></li>
                 </ul>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">  
@@ -61,7 +61,7 @@
           <!-- Modal body -->
           <div class="modal-body">
             Melissa and I were great partners for the COID297 Intro to Web Development course.
-            <div>We both love coffee</div>
+            <div>We both love coffee!</div>
             <div><i class="fas fa-coffee"></i></div>
           </div>
           
@@ -88,23 +88,29 @@
 <!-- team cards -->
 <div class="container bg-3">
     <h2>Team Photos</h2>
-    <div class="card" style="width:400px">
-      <img class="card-img-top" src="katiefoster2.jpg" alt="Katies photo" style="width:100%">
-      <div class="card-body">
-        <h4 class="card-title">Katie Foster</h4>
-        <p class="card-text">Champion for the puppies.</p>
-        <a href="profile.html" class="btn btn-danger">See Profile</a>
-      </div>
-    </div>
-    <br>
-    <div class="card" style="width:400px">
-        <img class="card-img-top" src="FPO-Image-Squares.jpg" alt="Melissa's photo" style="width:100%">
-        <div class="card-body">
-          <h4 class="card-title">Melissa Moore</h4>
-          <p class="card-text">PR and Marketing Expert</p>
-          <a href="profile2.html" class="btn btn-danger">See Profile</a>
+    <div class="row" id="row-2">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="katiefoster2.jpg" alt="Katies photo" style="width:60%">
+                <div class="card-body">
+                  <h4 class="card-title">Katie Foster</h4>
+                  <p class="card-text">Champion for puppies.</p>
+                  <a href="profile.html" class="btn btn-danger">See Profile</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="FPO-Image-Squares.jpg" alt="Melissa's photo" style="width:50%">
+                <div class="card-body">
+                  <h4 class="card-title">Melissa Moore</h4>
+                  <p class="card-text">PR and Marketing Expert</p>
+                  <a href="profile2.html" class="btn btn-danger">See Profile</a>
+                </div>
+            </div>
         </div>
     </div>
+    
 </div>
 <!-- Link to Melissa's website -->
 <div class="container bg-2" id="a-1"
