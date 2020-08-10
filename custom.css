@@ -19,7 +19,7 @@
     border-radius: 0;
     margin-bottom: 0;
     font-size: 12px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
   }
 .modal-header {
     background-color: #ffffff; /* White */
@@ -66,4 +66,18 @@ h4 {
 }
 .js-margin {
     margin-left: 35px;
+}
+/* the animation code */
+@keyframes trial {
+    from {background-color: gold;}
+    to {background-color: blueviolet;}
+}
+
+footer {
+    width: 100px;
+    height: 30px;
+    background-color:gold;
+    animation-name: trial;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
 }

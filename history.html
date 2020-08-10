@@ -41,6 +41,7 @@
 <!-- modifying the attributes file to History. will use style sheet link to style
 removed some of the code from previous lesson, block quote-->
  <h1>HTML Journey</h1>
+ <p>HTML was one of our first assignments and I was extremely happy to dig in. I loved learning about the many tags and how attributes function. I struggled to find 20 tags to use in my file and couldn’t wholly comprehend the nesting task. I found the blockquote tag early and wanted to use it which led me to BSU’s President quote. All in all it was a great beginning and learning experience.</p>
     <h2>Today......</h2>
 
 
@@ -83,10 +84,59 @@ removed some of the code from previous lesson, block quote-->
 <div><img id=myeurope src="europe.jpg" alt="europe" style="width:128px;height:128px;"></div>
 <!--using script tag to modify europe image-->
 
+<h2>Where to explore next:</h2>
+
+<p id="para1">The following list are places still to explore
+    and the list will continue to grow.
+</p>
+
+<ol id="orderedlist">
+<li>Switzerland</li>
+<li>Germany</li>
+<li>Amerstdam</li>
+</ol>
 <script>
     document.getElementById("myeurope").src = "europenew.jpg";
     </script>
+h1>Recipes</h1>
+<h2 id="header2">Amazing dishes discovered while traveling</h2>
 
+<!--using both class and combination selectors to style recipe table-->
+<table class= "recipe";style="width: 100%">
+<tr>
+    <th>Name</th>
+    <th>Origin</th>
+    <th>Year</th>
+    <th>Ranking</th>
+</tr>
+<tr>
+    <td>Paella</td>
+    <td>Spain</td>
+    <td>2015</td>
+    <td>5</td>
+</tr>
+<tr>
+    <td>Mahi Tacos</td>
+    <td>Maui</td>
+    <td>2014</td>
+    <td>5</td>
+</tr>
+</table>
+
+<!--using id selectors to style the p and ol elements-->
+
+
+<p id="para1">My first try at an HTML table. <abbr title="Katherine Marie Foster">KF</abbr></p>
+<img src="https://www.google.com/search?q=images+of+paella&rlz=1C1GCEU_enUS898US898&sxsrf=ALeKk02ihLI5SPSiWgQSa1H7YJ17twPS4A:1595119193813&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjirq-HitjqAhX5JzQIHf3XAnMQ_AUoAXoECA0QAw&biw=675&bih=620#imgrc=OJ1g-aNypVZfQM" alt="Paella">
+<a href="https://www.myrecipes.com/recipe/traditional-spanish-paella-0">Visit Spain</a>
+
+<p>Please find below a list of items needed for great Paella</p>
+<ol id="orderedlist">
+    <li>Seafood</li>
+    <li>Rice</li>
+    <li>Tomatoes</li>
+    <li>Saffron</li>
+</ol>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
