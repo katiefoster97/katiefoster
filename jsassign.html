@@ -40,63 +40,69 @@
 <!--using js to edit an existing html element with a
 button and also using js to edit the css on an existing element
 button-->
-<div class="js-margin">
-    <h1>JavaScript Journey</h1>
-    <p>I think the Javascript assignment was one of the most challenging. I felt empowered when I mastered editing an existing html element with Javascript. I was then able to also edit the CSS on an existing element. However, the random number generator was almost when I through in the towel. I could not wrap my head around how to accomplish this or what to even google. My classmates were very helpful and with some really good instruction and reviewing other’s code, I was able to get a better understanding. I definitely need to work on my Javascript abilities and really to dedicate the time to learn.</p>
-    <p id="jsbutton">My favorite place is....</p>
-    <button type="button" onclick="myFunctionreveal()">Click to reveal</button>
+<div class="container-fluid bg-1" justify-content-center="text-center">
+  <div class="row">
+    <div class="col-xs-12 justify-content-center text-center"> 
+        <h1>JavaScript Journey</h1>
+          <p>I think the Javascript assignment was one of the most challenging. I felt empowered when I mastered editing an existing html element with Javascript. I was then able to also edit the CSS on an existing element. However, the random number generator was almost when I through in the towel. I could not wrap my head around how to accomplish this or what to even google. My classmates were very helpful and with some really good instruction and reviewing other’s code, I was able to get a better understanding. I definitely need to work on my Javascript abilities and really to dedicate the time to learn.</p>
+          <p id="jsbutton">My favorite place is....</p>
+          <button type="button" onclick="myFunctionreveal()">Click to reveal</button>
 
 
-    <p id="jsbuttonstyle" style="color: chocolate;">Can you now guess my favorite color?</p>
-    <button type="button" onclick="myFunctionlook()">Let's take a look</button>
+          <p id="jsbuttonstyle" style="color: darkslategray;">Can you now guess my favorite color?</p>
+          <button type="button" onclick="myFunctionlook()">Let's take a look</button>
 
-    <div id="div1">
-        <p id="p1">Below is my next favorite travel destination</p>
-    </div>
-    <script>
-        var para = document.createElement("p");
-        var node = document.createTextNode("Paris");
-        para.appendChild(node);
-        var element = document.getElementById("div1");
-        element.appendChild(para);
-    </script>
-
+          <div id="div1">
+              <p id="p1">Below is my next favorite travel destination</p>
+          </div>
+          <script>
+              var para = document.createElement("p");
+              var node = document.createTextNode("Paris");
+              para.appendChild(node);
+              var element = document.getElementById("div1");
+              element.appendChild(para);
+          </script>
 
     <!--adding a text box and submit button and then
     using js to return response upon submit-->
 
-    <p class="para2">Please enter your favorite travel destination</p>
+        <p class="para2">Please enter your favorite travel destination</p>
 
-    <form class="para2" id="jsform" onsubmit="myform()">
-        <textarea name="message" rows="1" cols="20"></textarea>
-        <br><br>
-        <input type="submit">
-    </form>
-
-     
-
+        <form class="para2" id="jsform" onsubmit="myform()">
+            <textarea name="message" rows="1" cols="20"></textarea>
+            <br><br>
+            <input type="submit">
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-2" justify-content-center="text-center">
+    <div class="row">
+      <div class="col-xs-12 justify-content-center text-center">   
 
         <h1 id="hello">Random Generator</h1>
-        <label for="number">Please enter a number between 1 to 100</label>
-        <input type="number" id="number_select" value="100" min="1" max="100"></input>
-        <button id="button" onclick="numberDiv()">Click this button!</button>
+          <label for="number">Please enter a number between 1 to 100</label>
+          <input type="number" id="number_select" value="100" min="1" max="100"></input>
+          <button id="button" onclick="numberDiv()">Click this button!</button>
        
-        <div id="numberdiv">
-            Random number will appear here
-        </div>
-                    
+            <div id="numberdiv">
+              Random number will appear here
+            </div>
 
-        <p id="p1">Wow!</p>
-    <div> Now you can have some fun with the number you generated</div>
+          <p id="p1">Wow!</p>
+        <div> Now you can have some fun with the number you generated</div>
             <button type="button" onclick="starrySky()">Generate Smiles</button>
-
+        </div>
+      </div>
+  </div>
         <!--adding a link to a my js file. will use javascript code
         to change or add functions to my web pages-->
     <script src="jsassign.js"></script>
-</div>
 
-
-    <div style="color: darkcyan; font: small; padding: 10px;">Copyright KFoster 2020</div>
+    
+    <footer>
+      <p>©2020 Copyright: Katie Foster</p>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
