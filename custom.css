@@ -81,3 +81,6 @@ footer {
     animation-duration: 4s;
     animation-iteration-count: 5;
 }
+.container-fluid {
+    padding: 5px;
+}
