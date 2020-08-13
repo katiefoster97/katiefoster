@@ -53,6 +53,9 @@ footer p {
     text-align: right;
     margin-top: 9px;
 }
+a {
+    color: darkslategray;
+}
 .card-text {
     font-weight: bold;
 }
@@ -82,14 +85,15 @@ footer p {
 }
 /* the animation code */
 @keyframes trial {
-    from {background-color: gold;}
-    to {background-color: blueviolet;}
+    from {background-color: lightseagreen;}
+    to {background-color: palevioletred;}
 }
 
 .feet {
+    text-align: center;
     width: 100px;
     height: 50px;
-    background-color:gold;
+    background-color:lightseagreen;
     animation-name: trial;
     animation-duration: 4s;
     animation-iteration-count: 5;
@@ -98,7 +102,7 @@ footer p {
     padding: 5px;
 }
 .tip {
-    background-color: lightgreen;
+    background-color: #1abc9c;
   }
 
 .tip .tiptext {
@@ -118,4 +122,10 @@ footer p {
     border: 1px solid #73AD21;
     padding: 8px;
     background-color: cornsilk;
+}
+.centered { 
+    text-align: center; 
+    list-style-position:inside;
+    color: darkslategray;
+    
 }
