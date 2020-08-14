@@ -37,6 +37,10 @@ html {
     background-color: #ffffff; /* White */
     color: #555555;
 }
+.para2 {
+    color: darkslategray;
+    
+}
 #home-h1 {
     color: black;
     font-family: 'Raleway', sans-serif;

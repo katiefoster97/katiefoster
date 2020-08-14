@@ -7,6 +7,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <!-- Personal Links -->
@@ -43,7 +44,7 @@ button-->
   <div class="row">
     <div class="col-xs-12 justify-content-center text-center"> 
         <h1>JavaScript Journey</h1>
-          <p>I think the Javascript assignment was one of the most challenging. I felt empowered when I mastered editing an existing html element with Javascript. I was then able to also edit the CSS on an existing element. However, the random number generator was almost when I through in the towel. I could not wrap my head around how to accomplish this or what to even google. My classmates were very helpful and with some really good instruction and reviewing other’s code, I was able to get a better understanding. I definitely need to work on my Javascript abilities and really to dedicate the time to learn.</p>
+          <p>I think the Javascript assignment was one of the most challenging. I felt empowered when I mastered editing an existing html element with Javascript. I was then able to also edit the CSS on an existing element. However, the random number generator was almost when I through in the towel. I could not wrap my head around how to accomplish this or what to even google. My classmates were very helpful and with some really good instruction and reviewing other’s code, I was able to get a better understanding. I definitely need to work on my Javascript abilities and really dedicate time to learn.</p>
           <p id="jsbutton">My favorite place is....</p>
           <button type="button" onclick="myFunctionreveal()">Click to reveal</button>
 
@@ -89,8 +90,15 @@ button-->
             </div>
 
           <p id="p1">Wow!</p>
-        <div> Now you can have some fun with the number you generated</div>
-            <button type="button" onclick="starrySky()">Generate Smiles</button>
+          <script>
+            $(document).ready(function() {
+              $("button").addClass("animated bounce");
+              $(".smiles").addClass("animated shake");
+          
+            });
+          </script>
+        <div class="smiles"> Now you can have some fun with the number you generated</div>
+            <button type="button" onclick="starrySky()"><i class="fas fa-thumbs-up"></i>Generate Smiles</button>
         </div>
       </div>
   </div>
